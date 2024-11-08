@@ -1,4 +1,4 @@
-# Simulador de Ligas
+# League Simulator - Simulador de Ligas
 
 **English Version:**
 

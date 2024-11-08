@@ -71,7 +71,7 @@ One option to clubs that doesn't have enough money to buy new players is getting
 
 **Money**
 
-Clubs appear with a pre-setted amount of money. With the simulation, it can change because of transfers and winning (or not winning) the league.
+Clubs appear with a pre-setted amount of money. With the simulation, it can change because of transfers and winning (or not winning) the league and selling or buying players.
 
 <br>
 
@@ -98,9 +98,54 @@ Mas afinal, o que essas variáveis significam?
 
 ### Sobre os jogadores:
 
+<br>
+
 **Nível e Potencial**
 
 Nível é representado por um número que varia de 1 a 99 que nos mostra o quão bom é o jogador (1 sendo horrívelmente ruim e 99 sendo o melhor jogador do mundo). Potencial apenas mostra o nível quando o jogador alcançar o seu auge (mas se o jogador for muito velho, seu potencial será igual ao seu nível)
 
+<br>
 
+**Idade**
 
+Quão velho é o jogador. Se ele ficar muito velho, ele irá se aposentar. O máximo que um jogador pode ter na simulação é 42 anos. Após se aposentar, a simulação criará um novo jogador no time onde ele se aposentou, com um potencial parecido com o nível do jogador aposentado (talvez mais, talvez menos). Antes de se aposentar, ele começará a perder nível por ter uma idade avantajada.
+
+<br>
+
+**Moral**
+
+Quão bem o jogador está jogando. Por exemplo, se ele fizer 3 gols, sua moral vai ser melhor do que a de um cara que não marcou nenhum. Eu achei importante adicionar esse número a equação pois ele indica se você está jogando bem ou não, o que te faz ficar mais barato ou caro. Normalmente, esse número é maior ou igual a 1 (igual a 1 = fase morna, > 1 ótima fase), mas se você estiver em má fase, pode ser menor.
+
+<br>
+
+**Criando novos jogadoresr**
+
+Algumas vezes, na simulação, é preciso criar novos jogadores. Tem 2 casos específicos: Quando a simulação começa e quando um jogador se aposenta.
+
+<br>
+
+__Criando quando a simulação começa::__ Cria um nome baseado em sua nacionalidade. A idade deve estar entre 15 e 35. O nível tem que estar de acordo com a força do clube em que joga. Se for jovem, vai começar com um potencial maior do que seu nível.
+<br>
+__Criar quando alguém se aposenta:__ É até mais simples. É só recriar o jogador que se aposentou com uma idade menor. A nacionalidade muda para a nacionalidade do time em que o jogador que se aposentou jogava.
+
+### Sobre os clubes:
+
+They're inspired in real clubs. The names are changed for fun, but you can still understand.
+
+<br>
+
+**Transfers**
+
+All teams, all seasons, have 70% of chance to want to buy some players. They have to spend the club's money divided by two divided by the numbers of players they want to buy. If they don't have enough money to buy anyone, they won't. If the club needs players (because its almost empty), the club is forced to want to buy someone.
+
+<br>
+
+**Unemployed**
+
+One option to clubs that doesn't have enough money to buy new players is getting unemployed players for free. Unemployed players appears when a club don't want the player anymore and then don't make a new contract with he. 
+
+<br>
+
+**Money**
+
+Clubs appear with a pre-setted amount of money. With the simulation, it can change because of transfers and winning (or not winning) the league and selling or buying players.

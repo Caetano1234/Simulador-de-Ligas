@@ -130,22 +130,22 @@ __Criar quando alguém se aposenta:__ É até mais simples. É só recriar o jog
 
 ### Sobre os clubes:
 
-They're inspired in real clubs. The names are changed for fun, but you can still understand.
+São inspirados em clubes reais. Mudei o nome por diversão, mas ainda dá para entender..
 
 <br>
 
-**Transfers**
+**Transferências**
 
-All teams, all seasons, have 70% of chance to want to buy some players. They have to spend the club's money divided by two divided by the numbers of players they want to buy. If they don't have enough money to buy anyone, they won't. If the club needs players (because its almost empty), the club is forced to want to buy someone.
-
-<br>
-
-**Unemployed**
-
-One option to clubs that doesn't have enough money to buy new players is getting unemployed players for free. Unemployed players appears when a club don't want the player anymore and then don't make a new contract with he. 
+Todos os times, em todas as temporadas, tem 70% de chance de querer entrar no mercado para comprar algum jogador. Eles tem o dinheiro do clube dividido por dois dividido pelo número de jogadores que eles gostariam de comprar para gastar. Se não tiverem dinheiro para comprar nenhum jogador, eles não irão. Se o clube precisa de um jogador (por estar quase vazio), ele é obrigado a comprar.
 
 <br>
 
-**Money**
+**Passes livres**
 
-Clubs appear with a pre-setted amount of money. With the simulation, it can change because of transfers and winning (or not winning) the league and selling or buying players.
+Uma opção para clubes que estão sem dinheiro é comprar jogadores dos passes livres. Jogadores dos passes livres aparecem quando o seu ex-clube decide não renovar o contrato com eles. 
+
+<br>
+
+**Dinheiro**
+
+Os clubes já aparecem na simulação com uma quantidade definida de dinheiro (baseado na vida real). Na simulação, pode-se mudar essa quantidade caso o time ganhe ou fique em uma posição boa na liga, comprando e vendendo jogadores.
